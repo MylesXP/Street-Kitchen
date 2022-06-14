@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>STREET/KITCHEN</title>
+    <link rel="icon" href="Pictures/pepperco.png">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="streetkitchen_Homepage.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/fontawesome/webfonts/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-custom bg-transparent fixed-top"
+      id="mainNavbar"
+    >
+      <a href="index.html" class="navbar-brand">
+        <span id="street">STREET</span><i class="fas fa-pepper-hot peph"></i
+        ><span id="kitchen"> KITCHEN</span></a
+      >
+
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link glink" href="#"
+              >HOME<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link glink" id="menu" href="#">MENU</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="STREET KITCHEN - Order Online/streetkitchen_menu-selector.html" id="ordero" class="nav-link">ORDER ONLINE</a>
+          </li>
+          <li class="nav-item">
+            <a href="STREET KITCHEN - Our Locations/streetkitchen_location.html" class="nav-link" id="location"
+              >OUR LOCATIONS <i class="fas fa-map-marker-alt"></i
+            ></a>
+          </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0 login-form">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a
+                href=""
+                class="dropdown-toggle nav-link login"
+                data-toggle="dropdown"
+                >LOG IN<span class="caret rotate-180"></span
+              ></a>
+              <ul
+                class="dropdown-menu dropdown-menu-right"
+                style="
+                  background-color: rgba(0, 0, 0, 0.4);
+                  border: transparent;
+                  text-align: center;
+                "
+              >
+                <li><a class="dli dropdown-item" href="">LOG IN/SIGN UP</a></li>
+                <hr class="login-hr" />
+                <li><a class="dli dropdown-item" href="">SIGN IN WITH GOOGLE</a></li>
+                <hr class="login-hr" />
+              </ul>
+            </li>
+          </ul>
+        </form>
+
+        <!-- <div class="form-inline my-2 my-lg-0">
+          <ul class="nav navbar-nav">
+              <a
+                href=""
+                class="nav-link login"
+                >LOG IN
+              </a>
+          </ul>
+        </div> -->
+
+        <!-- <form class="form-inline my-2 my-lg-0 login-form">
+          <ul class="nav navbar-nav">
+            <li class="dropdown"> -->
+              <!-- <a
+                href=""
+                class="nav-link login"
+                data-toggle="dropdown"
+                >LOG IN</a> -->
+              <!-- <ul
+                class="dropdown-menu dropdown-menu-right"
+                style="
+                  background-color: rgba(0, 0, 0, 0.4);
+                  border: transparent;
+                  text-align: center;
+                "
+              >
+                <li><a class="dli dropdown-item" href="">Account</a></li>
+                <hr class="login-hr" />
+                <li><a class="dli dropdown-item" href="">Quick Order</a></li>
+                <hr class="login-hr" />
+                <li><a class="dli dropdown-item" href="">Payment</a></li>
+              </ul> -->
+            <!-- </li>
+          </ul>
+        </form> -->
+
+        <form class="dropdown form-inline my-2 my-lg-0">
+          <button
+            class="
+              dropdown
+              btn btn-outline-success
+              shadow-none
+              my-2 my-sm-0
+              checko
+              nav-link
+            "
+            type="button"
+            data-toggle="dropdown"
+            aria-expanded="false"
+            data-bs-display="static"
+            id="ddc"
+          >
+            <i class="fas fa-shopping-cart fa-lg"></i>
+
+        </form>
+      </div>
+    </nav>
+
+    <section
+      class=" jumbotron text-center"
+      style="padding-bottom: 35px; margin-bottom: 10px"
+    >
+      <h1 class="fadeTitle display-3" id="jumbo-id">
+        <span id="street">STREET</span><i class="fas fa-pepper-hot peph"></i
+        ><span id="kitchen"> KITCHEN</span>
+      </h1>
+      <h5 class="fadeTitle" style="color: white; font-weight: 200">
+        EST. 2021
+      </h5>
+      <hr id="jumbo" class="fadeTitle" />
+      <p class="lead fadeTitle" style="color: orange; font-weight: 400">
+        Where The Flavors of the Streets Call Home
+      </p>
+      <a
+        href="STREET KITCHEN - Order Online/streetkitchen_menu-selector.html"
+        class="fadeTitle btn btn-outline-warning menu shadow-none"
+        style="color: white; border-width: 3px; border: solid orange"
+        data-toggle=""
+        data-target=""
+        >View our Full Menu</a
+      >
+    </div>
+      <a href="#whatsgood" class="scroll-down fadeTitle" id="scrolldown">
+        <div class="mouse">
+          <span></span>
+        </div>
+        <div class="arrow">
+          <span></span>
+        </div>
+      </a>
+    </section>
+    
+    <div style="text-align: center; margin-bottom: 10px; font-size: 50px;" id="carousel-header">
+      <i class="fas fa-circle borderdot1" id="borderdots" style="font-size: .5rem;"></i>
+      <i class="fas fa-circle borderdot2" id="borderdots" style="font-size: 1rem;"></i>
+      <i class="fas fa-circle borderdot3" id="borderdots" style="font-size: 2rem;"></i>
+      <span style="color: red; padding-top: 50px;" id="whatsgood">¿What's </span
+      ><span style="color: green"  id="whatsgood">Good?</span>
+      <i class="fas fa-circle borderdot1" id="borderdots" style="font-size: 2rem; padding-right: 0px;"></i>
+      <i class="fas fa-circle borderdot3" id="borderdots" style="font-size: 1rem;"></i>
+      <i class="fas fa-circle  borderdot2" id="borderdots" style="font-size: .5rem;"></i>
+    </div>
+
+    <div class="container-fluid text-center">
+      <div class="owl-carousel owl-theme">
+        <div
+          class="item citem enchi"
+          style="padding-bottom: 1px; border-radius: 10px"
+        >
+          <h5>
+            <!-- Photo Size: 214 x 142 -->
+            <img
+              src="Pictures/Burritos1.jpg"
+              alt=""
+              title="Premium Burrito"
+              class="citem"
+            />Premium Burrito w/ Chips & Salsa
+          </h5>
+          <hr class="itemhr" />
+          <button class="btn btn-success" style="padding-top: 4px">
+            $12.99 <i class="fas fa-cart-plus"></i>
+          </button>
+          <div
+            class="carddeets"
+            style="
+              text-align: left;
+              font-size: 15px;
+              padding-top: 5px;
+              padding-left: 3px;
+              
+            "
+          >
+            <span class="span1">800Cal</span>
+            <span style="float: right"
+              >Notes:
+              <i
+                title="Vegan Options Available"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                class="fas fa-seedling"
+                style="color: green; padding-right: 3px"
+              ></i
+              ><i
+                class="fas fa-fire-alt"
+                title="Spicy!"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                style="padding-right: 5px; color: red"
+              ></i>
+            </span>
+          </div>
+        </div>
+        <div
+          class="item citem enchi"
+          style="padding-bottom: 1px; border-radius: 10px"
+        >
+          <h5>
+            <img
+              src="Pictures/guragura.jpg"
+              alt=""
+              title="Cheesy Enchiladas"
+              class="citem"
+            />Cheesy <br class="oltitle" /> Loaded Enchiladas
+          </h5>
+          <hr class="itemhr" />
+          <button class="btn btn-success" style="padding-top: 4px">
+            $8.99 <i class="fas fa-cart-plus"></i>
+          </button>
+          <div
+            class="carddeets"
+            style="
+              text-align: left;
+              font-size: 15px;
+              padding-top: 5px;
+              padding-left: 3px;
+            "
+          >
+          <span class="span1">1200Cal</span>
+            
+            <span style="float: right"
+              >Notes:
+              <i
+                title="Vegan Options Available"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                class="fas fa-seedling"
+                style="color: green; padding-right: 3px"
+              ></i
+              ><i
+                class="fas fa-fire-alt"
+                title="Spicy!"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                style="padding-right: 5px; color: red"
+              ></i>
+            </span>
+          </div>
+        </div>
+        <div
+          class="item citem enchi"
+          style="padding-bottom: 1px; border-radius: 10px"
+        >
+          <h5>
+            <img
+              src="Pictures/chinese_adobespark.jpg"
+              alt=""
+              title="Orange Chicken"
+              class="citem"
+            />
+            Orange Chicken w/ Chow Mein
+          </h5>
+          <hr class="itemhr" />
+          <button class="btn btn-success" style="padding-top: 4px">
+            $9.99 <i class="fas fa-cart-plus"></i>
+          </button>
+          <div
+            class="carddeets"
+            style="
+              text-align: left;
+              font-size: 15px;
+              padding-top: 5px;
+              padding-left: 3px;
+            "
+          >
+          <span class="span1" style="padding-right: 4rem !important;">750Cal</span>
+
+            <span style="float: right"
+              >Notes:
+              <i
+                title="Vegan Options Available"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                class="fas fa-seedling"
+                style="color: green; padding-right: 3px"
+              ></i>
+            </span>
+          </div>
+        </div>
+        <div
+          class="item citem enchi" 
+          style="padding-bottom: 1px; border-radius: 10px"
+        >
+          <h5>
+            <img
+              src="Pictures/chickensatay_adobespark.jpg"
+              alt=""
+              title="Chicken Satay w/ Peanut Sauce"
+              class="citem"
+            />Chicken Satay w/ Peanut Sauce
+          </h5>
+          <hr class="itemhr" />
+          <button class="btn btn-success" style="padding-top: 4px">
+            $10.99 <i class="fas fa-cart-plus"></i>
+          </button>
+          <div
+            class="carddeets"
+            style="
+              text-align: left;
+              font-size: 15px;
+              padding-top: 5px;
+              padding-left: 3px;
+            "
+          >
+          <span class="span1">600Cal</span>
+
+            <span style="float: right"
+              >Notes:
+              <i
+                class="fas fa-heart"
+                title="Healthy Option"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                style="padding-right: 5px; color: red"
+              ></i>
+            </span>
+          </div>
+        </div>
+        <div
+          class="item citem enchi"
+          style="padding-bottom: 1px; border-radius: 10px"
+        >
+          <h5>
+            <img
+              src="Pictures/goulash_adobespark.jpg"
+              alt=""
+              title=" German Goulash"
+              class="citem"
+            />
+            Authentic German Goulash
+          </h5>
+          <hr class="itemhr" />
+          <button class="btn btn-success" style="padding-top: 4px">
+            $10.99 <i class="fas fa-cart-plus"></i>
+          </button>
+          <div
+            class="carddeets"
+            style="
+              text-align: left;
+              font-size: 15px;
+              padding-top: 5px;
+              padding-left: 3px;
+            "
+          >
+          <span class="span1">850Cal</span>
+
+            <span style="float: right"
+              >Notes:
+              <i
+                title="Vegan Options Available"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                class="fas fa-seedling"
+                style="color: green; padding-right: 3px"
+              ></i
+              ><i
+                class="fas fa-fire-alt"
+                title="Spicy!"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                style="padding-right: 5px; color: red"
+              ></i>
+            </span>
+          </div>
+        </div>
+        <div
+          class="item citem enchi"
+          style="padding-bottom: 1px; border-radius: 10px"
+        >
+          <h5>
+            <img
+              src="Pictures/gyros_adobespark.jpg"
+              alt=""
+              title="Greek Gyros"
+              class="citem"
+            />Greek Gyros w/ Tzatziki Sauce
+          </h5>
+          <hr class="itemhr" />
+          <button class="btn btn-success" style="padding-top: 4px">
+            $12.99 <i class="fas fa-cart-plus"></i>
+          </button>
+          <div
+            class="carddeets"
+            style="
+              text-align: left;
+              font-size: 15px;
+              padding-top: 5px;
+              padding-left: 3px;
+            "
+          >
+          <span class="span1">750Cal</span>
+
+            <span style="float: right"
+              >Notes:
+              <i
+                title="Vegan Options Available"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                class="fas fa-seedling"
+                style="color: green; padding-right: 3px"
+              ></i
+              ><i
+                class="fas fa-fire-alt"
+                title="Spicy!"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                style="padding-right: 5px; color: red"
+              ></i>
+            </span>
+          </div>
+        </div>
+        <div
+          class="item citem enchi"
+          style="padding-bottom: 1px; border-radius: 10px"
+        >
+          <h5>
+            <img
+              src="Pictures/katsudon_adobespark.jpg"
+              alt=""
+              title="Katsudon"
+              class="citem"
+            />Katsudon w/ Tonkatsu Sauce
+          </h5>
+          <hr class="itemhr" />
+          <button class="btn btn-success" style="padding-top: 4px">
+            $12.99 <i class="fas fa-cart-plus"></i>
+          </button>
+          <div
+            class="carddeets"
+            style="
+              text-align: left;
+              font-size: 15px;
+              padding-top: 5px;
+              padding-left: 3px;
+            "
+          >
+          <span class="span1">800Cal</span>
+            <span style="float: right"
+              >Notes:
+              <i
+                title="Vegan Options Available"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                class="fas fa-seedling"
+                style="color: green; padding-right: 3px"
+              ></i
+              ><i
+                class="fas fa-fire-alt"
+                title="Spicy!"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                style="padding-right: 5px; color: red"
+              ></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- <section class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 px-0">
+          <img src="shibuya.gif" alt="" class="img-fluid titleimg" />
+          <div class="row">
+            <div class="col-lg-6">
+              <h1>About us</h1>
+            </div>
+        </div>
+      </div>
+    </section> -->
+
+    
+
+    <section class="container-fluid">
+      <!-- <div class="col-lg-6" style="padding-left: 0px;">
+        <div class="row">
+          <img src="Burritos.jpeg" alt="" class="img-fluid checkrimg" id="shibuyagif">
+        </div>
+      </div> -->
+      
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row">
+            <img src="Pictures/thai_adobespark.jpg" alt="" class="img-fluid checkrimg" id="shibuyagif">
+          </div>           
+        </div>         
+        <div class="col-lg-6 text-area aboutus" style="text-align: center;">
+          <h1 id="about-us--title">About The Kitchen</h1>
+          <p style="color: white; ">The Greatest and most flavorful street foods have found their home. <br class="d-none d-sm-flex d-md-none"> Everything you love about street food, from the wild and moment-defining flavors, to <br class="d-none d-xl-flex"> bringing everyone in for a memorable social <br class="d-none d-sm-flex d-md-none">event, <br class="d-none d-md-block d-lg-none"> we've got it. <br class="d-none d-block d-sm-none d-md-flex d-xl-flex">Enjoy it with us. <br> Here, at <span id="street">STREET</span><i class="fas fa-pepper-hot peph"></i><span id="kitchen"> KITCHEN</span>. <br><i class="fas fa-circle borderdot1"></i> <i class="fas fa-circle borderdot2"></i>  <i class="fas fa-circle borderdot3"></i></p>
+        </p>
+        </div>
+      </div>
+  </section>
+
+  <div id="banner" class="container-fluid"><h2 style="color: white">Get ahead of the curb</h2> <h2 style="color: white;" >Join our rewards club!</h2> <button class="btn btn-warning">Earn Rewards</button></div>
+    
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6  text-area" style="text-align: center;">
+          <h1 id="join-us--title">Join Our Team!</h1>
+            <p style="color: white; " id="joinarea">We are actively looking for excited, and ambitious team members to join our Street Team! When you join us, you get competitive pay, free access to GED and Associate <br class="d-none d-sm-flex d-md-none">degree programs, <br class="d-none d-md-block d-lg-none"> and health benefits. If this interests you, don't be shy, apply now! <br class="d-none d-block d-sm-none d-md-flex d-xl-flex"><br id="join-us--br" style="display: none;"><button class="btn btn-danger" id="jointeam" style="font-size: 30px; margin-top: 10px;">Join Us</button></p>
+          </p>
+        </div>
+        <div class="col-lg-6 ">
+          <div class="row">
+              <img src="Pictures/joinus_adobespark.jpg" alt="" class="img-fluid checkrimg" id="shibuyagif" style="float: right;">
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-copyright text-center py-1" style="background-color: rgba(0,0,0,0.5); color: gray; padding-bottom: 0;">
+      
+      <p><a href="" class="borderlink">Contact Us</a> <a href="" class="borderlink">Careers</a> <a href="" class="borderlink">Nutrition & Allergies</a> <a href="" class="borderlink-end">Franchising</a><br></p>
+      <div id="totalmedia"><span id="socialmedia">Stay In The Loop</span><br><a href="https://www.facebook.com"><i class="fab fa-facebook fa-3x" id="facebook"></i></a> <a href="https://www.twitter.com"><i class="fab fa-twitter-square fa-3x" id="twitter"></i></a> <a href="https://www.instagram.com" id="insta"><i class="fab fa-instagram fa-3x"></i></a></div>
+      <span id="copyright">© Copyright 2021 <span id="street">STREET</span><i class="fas fa-pepper-hot peph"></i
+        ><span id="kitchen"> KITCHEN</span> | Developed By Myles Parkinson</span>
+    </div>
+    </div>
+    
+
+    <footer class="d-lg-none fixed-bottom" id="dockedfooter">
+      <ul>
+        <li class="btn btn-success" id="dockedbtn-login"><a href="streetkitchen_Homepage.html" class="docked" style="display: block; color: white;">LOGIN</a></li>
+        
+        <li class="btn btn-danger" id="dockedbtn-order"><a href="STREET KITCHEN - Order Online/streetkitchen_menu-selector.html" class="docked" style="display: block; color: white;">ORDER</a></li>
+      </ul>
+    </footer>
+
+    
+
+    
+
+    
+
+    <script type="text/javascript" src="jq/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="pp/popper.min.js"></script>
+    <script type="text/javascript" src="streetkitchen_Homepage.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: false,
+        margin: 10,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+
+      // Init Bootstrap Tooltips
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+    
+  </body>
+</html>
