@@ -26,7 +26,7 @@ html {
 /* Mobile S - Mobile L*/
 @media only screen and (max-width: 26.7em) {
   .mouse {
-    /* display: none !important; */
+    display: none !important;
   }
 
   div.arrow {
@@ -34,23 +34,25 @@ html {
     /* display: none !important; */
   }
 
-  #banner h2{
+  #banner h2 {
     font-size: 25px !important;
   }
 
-  #banner button{
+  #banner button {
     margin-top: 2% !important;
   }
 
-  .aboutus p, .text-area{
+  .aboutus p,
+  .text-area {
     font-size: 18px !important;
   }
 
-  #about-us--title, #join-us--title {
+  #about-us--title,
+  #join-us--title {
     font-size: 28px !important;
   }
 
-  #jointeam{
+  #jointeam {
     font-size: 20px !important;
   }
 
@@ -67,12 +69,12 @@ html {
 
 /* Tablet */
 @media only screen and (min-width: 48em) {
-
   #jumbo-id {
     padding-top: 11vh !important;
   }
 
-  div.mouse, div.mouse span {
+  div.mouse,
+  div.mouse span {
     display: block !important;
   }
 
@@ -83,12 +85,12 @@ html {
 
 /* Laptop */
 @media only screen and (min-width: 64em) {
-
   #jumbo-id {
     padding-top: 1vh !important;
   }
 
-  .navbar, a.navbar-brand {
+  .navbar,
+  a.navbar-brand {
     font-size: 15px;
   }
 
@@ -108,8 +110,6 @@ html {
     display: none !important;
   } */
 
-  
-
   .jumbotron .btn-outline-warning {
     font-size: 20px !important;
   }
@@ -117,12 +117,12 @@ html {
 
 /* Laptop L */
 @media only screen and (min-width: 90em) {
-
   #jumbo-id {
     padding-top: 1vh !important;
   }
 
-  .navbar, a.navbar-brand {
+  .navbar,
+  a.navbar-brand {
     font-size: 15px;
   }
 
@@ -142,15 +142,11 @@ html {
     display: none !important;
   } */
 
-  
-
   .jumbotron .btn-outline-warning {
-
-    
     font-size: 20px !important;
   }
 
-  div.mouse  {
+  div.mouse {
     display: block !important;
   }
 
@@ -163,7 +159,8 @@ html {
     padding-top: 1vh !important;
   }
 
-  .navbar, a.navbar-brand {
+  .navbar,
+  a.navbar-brand {
     font-size: 15px;
   }
 
@@ -183,8 +180,6 @@ html {
     display: none !important;
   } */
 
-  
-
   .jumbotron .btn-outline-warning {
     font-size: 20px !important;
   }
@@ -192,11 +187,12 @@ html {
 
 /* 1080p */
 @media only screen and (min-width: 120em) and (max-width: 120em) {
-  .navbar, a.navbar-brand {
+  .navbar,
+  a.navbar-brand {
     font-size: 30px !important;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 25px !important;
   }
 
@@ -205,7 +201,7 @@ html {
   }
 
   .lead {
-    font-size: 40px!important;
+    font-size: 40px !important;
   }
 
   .jumbotron h5 {
@@ -216,8 +212,7 @@ html {
     font-size: 35px !important;
   }
 
-
-  .arrow{
+  .arrow {
     display: block !important;
   }
 
@@ -247,7 +242,8 @@ html {
     font-size: 80px !important;
   }
 
-  .aboutus p, .text-area{
+  .aboutus p,
+  .text-area {
     font-size: 36px !important;
   }
 
@@ -255,28 +251,27 @@ html {
     font-size: 70px !important;
   }
 
-  #banner h2{
+  #banner h2 {
     font-size: 45px;
   }
 
-  #banner button{
+  #banner button {
     margin-top: 0 !important;
-   
   }
 
   #join-us--title {
-    font-size: 70px ;
+    font-size: 70px;
   }
 
-  #jointeam{
+  #jointeam {
     font-size: 60px !important;
   }
 
-  .footer-copyright p  {
+  .footer-copyright p {
     font-size: 25px;
   }
 
-  #totalmedia{
+  #totalmedia {
     font-size: 20px;
   }
 
@@ -289,14 +284,14 @@ html {
   }
 }
 
-
 /* '4K' - QuadHD */
 @media only screen and (min-width: 160em) {
-  .navbar, a.navbar-brand {
+  .navbar,
+  a.navbar-brand {
     font-size: 30px !important;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 25px !important;
   }
 
@@ -304,13 +299,13 @@ html {
     font-size: 142px !important;
   }
 
-  .carddeets{
+  .carddeets {
     font-size: 22px !important;
     display: block;
   }
 
   .lead {
-    font-size: 40px!important;
+    font-size: 40px !important;
   }
 
   .jumbotron h5 {
@@ -321,8 +316,7 @@ html {
     font-size: 35px !important;
   }
 
-
-  .arrow{
+  .arrow {
     display: block !important;
   }
 
@@ -352,8 +346,7 @@ html {
     font-size: 80px !important;
   }
 
-
-  .aboutus p{
+  .aboutus p {
     font-size: 50px !important;
   }
 
@@ -361,16 +354,15 @@ html {
     font-size: 70px !important;
   }
 
-  #banner h2{
+  #banner h2 {
     font-size: 45px;
   }
 
-  #banner button{
+  #banner button {
     margin-top: 0 !important;
-   
   }
 
-  .citem .btn-success{
+  .citem .btn-success {
     font-size: 20px !important;
   }
 
@@ -383,18 +375,18 @@ html {
   }
 
   #join-us--title {
-    font-size: 70px ;
+    font-size: 70px;
   }
 
-  #jointeam{
+  #jointeam {
     font-size: 60px !important;
   }
 
-  .footer-copyright p  {
+  .footer-copyright p {
     font-size: 25px;
   }
 
-  #totalmedia{
+  #totalmedia {
     font-size: 20px;
   }
 
@@ -405,15 +397,16 @@ html {
 
 /* 4K */
 @media only screen and (min-width: 240em) and (max-width: 240em) {
-  .navbar, a.navbar-brand {
+  .navbar,
+  a.navbar-brand {
     font-size: 60px !important;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 40px !important;
   }
 
-  .carddeets{
+  .carddeets {
     font-size: 35px !important;
   }
 
@@ -421,15 +414,13 @@ html {
     padding-top: 100px !important;
   }
 
-  .citem .btn-success{
+  .citem .btn-success {
     font-size: 40px !important;
   }
 
   .citem h5 {
     font-size: 50px !important;
   }
-
-  
 
   #jumbo-id {
     font-size: 290px !important;
@@ -451,7 +442,7 @@ html {
     font-size: 2.5rem;
   }
 
-  .arrow{
+  .arrow {
     display: block !important;
   }
 
@@ -489,14 +480,12 @@ html {
     font-size: 120px !important;
   }
 
-
-  #banner h2{
+  #banner h2 {
     font-size: 45px;
   }
 
-  #banner button{
+  #banner button {
     margin-top: 0 !important;
-   
   }
 
   .text-area {
@@ -504,18 +493,18 @@ html {
   }
 
   #join-us--title {
-    font-size: 120px ;
+    font-size: 120px;
   }
 
-  #jointeam{
+  #jointeam {
     font-size: 100px !important;
   }
 
-  .footer-copyright p  {
+  .footer-copyright p {
     font-size: 30px;
   }
 
-  #totalmedia{
+  #totalmedia {
     font-size: 30px;
   }
 
@@ -551,7 +540,6 @@ html {
 
 /* General Desktop Responsivness Media Queries */
 @media screen and (min-width: 483px) and (max-width: 973px) {
-
   .jumbotron {
     padding-top: 53px !important;
   }
@@ -599,9 +587,7 @@ html {
 
   .arrow {
     display: none !important;
-    
   }
-
 }
 
 /* Pixel 2 XL*/
@@ -628,7 +614,7 @@ html {
     margin-bottom: 0 !important;
   }
 
-  #scrolldown{
+  #scrolldown {
     margin-bottom: 80px;
   }
 }
@@ -645,7 +631,7 @@ html {
     margin-top: 15px;
     color: white;
   }
-  
+
   #copyright {
     padding-bottom: 65px;
   }
@@ -670,8 +656,6 @@ html {
   .arrow {
     display: none;
   }
-
-  
 }
 
 /* IPHONE 6/7/8*/
@@ -684,7 +668,7 @@ html {
     padding-bottom: 65px;
   }
   #carousel-header span {
-    font-size: 45px ;
+    font-size: 45px;
   }
 
   #scrolldown {
@@ -721,7 +705,7 @@ html {
     display: block !important;
   }
 
-  #scrolldown{
+  #scrolldown {
     /* margin-bottom: 80px; */
   }
 }
@@ -737,7 +721,7 @@ html {
   }
 
   #carousel-header span {
-    font-size: 45px ;
+    font-size: 45px;
   }
 
   .mouse span {
@@ -749,14 +733,13 @@ html {
     display: block !important;
   }
 
-  #scrolldown{
+  #scrolldown {
     /* margin-bottom: 80px; */
   }
-  
 }
 
 /*IPAD*/
-@media screen and (min-height: 1024px) and (max-height: 1025px) and (min-width: 768px)  {
+@media screen and (min-height: 1024px) and (max-height: 1025px) and (min-width: 768px) {
   #scrolldown {
     margin-bottom: 75px;
   }
@@ -772,10 +755,7 @@ html {
   } */
 }
 
-
-
 @media screen and (min-height: 720px) and (max-height: 721px) and (min-width: 540px) and (max-width: 541px) {
-  
   #scrolldown {
     margin-bottom: 60px;
     display: inline-block !important;
@@ -790,9 +770,7 @@ html {
     height: 3rem !important;
     display: box;
   } */
-
 }
-
 
 @media screen and (max-width: 767px) {
   .oltitle {
@@ -841,7 +819,7 @@ html {
     padding-top: 130px !important;
   }
 
-  #scrolldown{
+  #scrolldown {
     /* margin-bottom: 70px !important; */
   }
 }
@@ -873,13 +851,9 @@ html {
     display: none !important;
   } */
 
-
-
   #copyright {
     padding-bottom: 65px;
   }
-
-  
 }
 
 @media screen and (min-height: 1366px) and (max-height: 1367px) and (min-width: 1024px) and (max-width: 1025px) {
@@ -890,7 +864,6 @@ html {
   .jumbotron .btn-outline-warning {
     font-size: 30px !important;
   }
-
 
   .aboutus {
     padding-top: 0px !important;
@@ -903,8 +876,6 @@ html {
   .lead {
     font-size: 35px !important;
   }
-
-  
 
   .jumbotron p {
     font-size: 30px;
@@ -926,9 +897,6 @@ html {
     height: 1.5rem;
     margin-top: 50px !important;
   }
-
-
-
 
   section .arrow span {
     width: 1.5rem;
@@ -960,7 +928,6 @@ html {
   .jumbotron h5 {
     font-size: 45px;
   }
-  
 
   .jumbotron p {
     font-size: 35px;
@@ -969,8 +936,6 @@ html {
   .jumbotron a {
     font-size: 40px;
   }
-
-  
 }
 
 @media screen and (min-height: 568px) and (max-height: 569px),
@@ -999,11 +964,10 @@ html {
   #scrolldown {
     margin-bottom: 65px;
   }
-  
+
   .arrow {
     display: none;
   }
-
 }
 
 @media screen and (min-height: 653px) and (max-height: 654px),
@@ -1024,7 +988,6 @@ html {
   #copyright {
     padding-bottom: 65px;
   }
-
 
   #carousel-header span {
     font-size: 35px;
@@ -1181,8 +1144,7 @@ html {
 
 @media screen and (min-width: 568px) and (max-width: 569px),
   (min-height: 320px) and (max-height: 321px) {
-  
-    /* section .jumbotron .text{
+  /* section .jumbotron .text{
       padding-top: 45px !important;
     } */
 
@@ -1258,8 +1220,6 @@ html {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-
-  
 }
 /* IPhone 6/7/8 Plus */
 @media screen and (min-width: 736px) and (max-width: 737px),
@@ -1399,7 +1359,7 @@ html {
     margin-bottom: 10px !important;
   }
 
-  .arrow{
+  .arrow {
     display: block !important;
   }
 
@@ -1423,11 +1383,10 @@ html {
 }
 /* Surface Duo */
 @media screen and (min-width: 720px) and (max-width: 721px) and (min-height: 540px) and (max-height: 541px) {
-  
   .arrow {
     display: none;
   }
-  
+
   section .mouse {
     margin-bottom: 65px !important;
   }
@@ -1442,7 +1401,6 @@ html {
 
 /* Galaxy Fold */
 @media screen and (min-width: 653px) and (max-width: 654px) and (min-height: 280px) and (max-height: 281px) {
-  
   .fadeTitle p {
     font-size: 10px;
   }
@@ -1458,9 +1416,9 @@ html {
   #jumbo {
     margin-bottom: 8px;
   }
-  
+
   section .arrow span {
-    display: none ;
+    display: none;
   }
 
   div .arrow {
@@ -1487,12 +1445,12 @@ html {
     height: 259.266px;
   }
 
-  .carddeets{
+  .carddeets {
     bottom: 0;
     position: absolute;
   }
 
-  .carddeets .span1{
+  .carddeets .span1 {
     padding-right: 2.5rem;
   }
 
@@ -1545,7 +1503,6 @@ html {
     padding-bottom: 65px;
   }
 
-  
   #carousel-header span {
     font-size: 35px;
   }
@@ -1562,7 +1519,6 @@ html {
   #copyright {
     padding-bottom: 40px !important;
   }
-  
 }
 
 /* Galaxy Fold - Dual Screen */
@@ -1575,8 +1531,6 @@ html {
   section .arrow span {
     display: none;
   }
-
-  
 }
 
 /* End Landscape Media Queries */
@@ -1954,7 +1908,7 @@ html {
   margin-bottom: 5px;
 }
 
-#whatsgood{
+#whatsgood {
   padding-top: 50px;
 }
 
